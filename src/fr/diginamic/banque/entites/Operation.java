@@ -27,7 +27,7 @@ public abstract class Operation {
     public double mAJ(){
 
         String j = getType();
-        if (j == "DEBIT")
+        if (j.equals("DEBIT"))
             x = x - montantOP;
         else
             x = x + montantOP;
