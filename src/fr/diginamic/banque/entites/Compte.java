@@ -13,6 +13,7 @@ public class Compte{
         this.soldeCompte = soldeCompte;
     }
 
+
     public int getNomCompte() {
         return nomCompte;
     }
